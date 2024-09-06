@@ -1,0 +1,74 @@
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\appsettings.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.exe
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.deps.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.runtimeconfig.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.pdb
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.csproj.AssemblyReference.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.AssemblyInfoInputs.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.AssemblyInfo.cs
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.csproj.CoreCompileInputs.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.LabApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.build.LabApi.props
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LabApi.props
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LabApi.props
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\scopedcss\bundle\LabApi.styles.css
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.csproj.CopyComplete
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\refint\LabApi.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.pdb
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.genruntimeconfig.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\ref\LabApi.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\FileManager.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\FileManager.pdb
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\appsettings.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.exe
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.deps.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.runtimeconfig.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\LabApi.pdb
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\CsvHelper.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\FileManager.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\FileManager.pdb
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.csproj.AssemblyReference.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.AssemblyInfoInputs.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.AssemblyInfo.cs
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.csproj.CoreCompileInputs.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.LabApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.build.LabApi.props
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.LabApi.props
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.LabApi.props
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\scopedcss\bundle\LabApi.styles.css
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.csproj.CopyComplete
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\refint\LabApi.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.pdb
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\LabApi.genruntimeconfig.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\obj\Debug\net7.0\ref\LabApi.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\LabApi\bin\Debug\net7.0\Newtonsoft.Json.dll

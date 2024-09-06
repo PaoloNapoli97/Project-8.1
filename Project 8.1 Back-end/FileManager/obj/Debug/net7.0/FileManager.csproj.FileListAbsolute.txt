@@ -1,0 +1,24 @@
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.AssemblyInfoInputs.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.AssemblyInfo.cs
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.csproj.CoreCompileInputs.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\bin\Debug\net7.0\FileManager.deps.json
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\bin\Debug\net7.0\FileManager.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\bin\Debug\net7.0\FileManager.pdb
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.csproj.AssemblyReference.cache
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\refint\FileManager.dll
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.pdb
+C:\Users\FMF-Guest\Desktop\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\ref\FileManager.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\bin\Debug\net7.0\FileManager.deps.json
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\bin\Debug\net7.0\FileManager.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\bin\Debug\net7.0\FileManager.pdb
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.csproj.AssemblyReference.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.AssemblyInfoInputs.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.AssemblyInfo.cs
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.csproj.CoreCompileInputs.cache
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\refint\FileManager.dll
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\FileManager.pdb
+C:\Users\Paolo\Desktop\Nuova cartella (4)\Project 8.1\Project 8.1 Back-end\FileManager\obj\Debug\net7.0\ref\FileManager.dll

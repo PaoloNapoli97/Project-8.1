@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+        <use xlink:href="#bootstrap"></use>
+      </svg>
+    </a>
+
+    <div class="col-md-3 text-end d-flex">
+      <form id="login" class="d-flex">
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+        <button type="submit" id="submitLogin" class="btn btn-outline-primary me-2">Login</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <!-- USER SECTION -->
+    <section id="UserSection">
+      <div class="container bg-white p-4 rounded-3">
+        <div class="mb-3">
+          <label for="LabIdBooking" class="form-label">Lab Id</label>
+          <input type="text" class="form-control" name="stringId" id="LabIdBooking">
+        </div>
+
+        <div id="boxBooking">
+          <form >
+            <div class="mb-3">
+              <label for="nameBooking" class="form-label">Name</label>
+              <input type="text" class="form-control" name="stringId" id="nameBooking">
+            </div>
+
+            <select id="bookingDay" name="Day">
+              <option value="" disabled selected>Day</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+
+            <select id="bookingHour" name="Hour">
+              <option value="" disabled selected>Hour</option>
+              <option value="9:00">9:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+              <option value="18:00">18:00</option>
+            </select>
+            
+            <select id="typeBooking" name="Booking">
+              <option value="" disabled selected>Pick one</option>
+              <option value="Computer">Computer</option>
+              <option value="Resource">Resource</option>
+            </select>
+
+            <select id="methodBooking" name="Method">
+              <option value="" disabled selected>Method</option>
+              <option value="POST">POST</option>
+              <option value="DELETE">DELETE</option>
+            </select>
+            
+            <button type="submit" id="buttonBooking" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMIN SECTION  -->
+    <section id="AdminSection">
+
+      <div class="container bg-white p-4 rounded-3">
+        <div class="boxAll">
+          <button type="submit" id="showAllUsers" class="btn btn-primary">Show All Users</button>
+          <div id="userResponse"></div>
+        </div>
+
+        <div class="boxCreate py-5">
+          <form id="CreateUser">
+            <label for="stringId" class="form-label">User Id to replace (if Put)</label>
+            <input type="text" class="form-control" name="stringId" id="stringId" placeholder="">
+            <div class="mb-3">
+              <label for="nameCreate" class="form-label">Name</label>
+              <input type="text" class="form-control" name="Name" id="nameCreate">
+            </div>
+            <div class="mb-3">
+              <label for="emailCreate" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailCreate" name="Id" aria-describedby="emailHelp">
+            </div>
+            <!-- <div class="mb-3">
+              <label for="passCreate" class="form-label">Password</label>
+              <input type="password" class="form-control" name="Password" id="passCreate">
+            </div> -->
+            <select id="roleSelect" name="Role">
+              <option value="" disabled selected>Pick role</option>
+              <option value="User">User</option>
+              <option value="Admin">Admin</option>
+              <option value="LabAdmin">LabAdmin</option>
+            </select>
+            <select id="statusSelect" name="Status">
+              <option value="" disabled selected>Pick status</option>
+              <option value="true">Enable</option>
+              <option value="false">Disable</option>
+            </select>
+            <select id="methodSelect" name="method">
+              <option value="" disabled selected>Pick one</option>
+              <option value="POST">Post</option>
+              <option value="PUT">Put</option>
+            </select>
+            <button type="submit" id="buttonCreateUser" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <div class="boxPatch py-5">
+          <form id="PatchUser">
+            <label for="stringIdPatch" class="form-label">User Id to replace</label>
+            <input type="text" class="form-control" name="stringId" id="stringIdPatch" placeholder="">
+            <div class="mb-3">
+              <label for="namePatch" class="form-label">Name</label>
+              <input type="text" class="form-control" name="Name" id="namePatch">
+            </div>
+            <div class="mb-3">
+              <label for="emailPatch" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailPatch" name="Id" aria-describedby="emailHelp">
+            </div>
+            <select id="patchRoleSelect" name="Role">
+              <option value="" disabled selected>Pick role</option>
+              <option value="User">User</option>
+              <option value="Admin">Admin</option>
+              <option value="LabAdmin">LabAdmin</option>
+            </select>
+            <select id="patchStatusSelect" name="Status">
+              <option value="" disabled selected>Pick status</option>
+              <option value="true">Enable</option>
+              <option value="false">Disable</option>
+            </select>
+            <select id="actionSelect" name="Action">
+              <option value="" disabled selected>Pick action</option>
+              <option value="PATCH">Edit User</option>
+              <option value="STATUS">Change User Status</option>
+            </select>
+            <button type="submit" id="buttonPatchUser" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- LABADMIN SECTION -->
+    <section id="LabAdminSection">
+      <div class="container bg-white p-4 rounded-3">
+
+        <div class="boxAll">
+          <button type="submit" id="showAllLabs" class="btn btn-primary">Show All Labs</button>
+          <div id="LabResponse"></div>
+        </div>
+
+        <select id="ChoiceLabAction" name="Choice">
+          <option value="" disabled selected>Select Action</option>
+          <option value="AddLab">Add Lab</option>
+          <option value="AddComputer">Add Computer</option>
+          <option value="AddResource">Add Resource</option>
+          <option value="EditComputer">Edit Computer</option>
+          <option value="MoveComputer">Move Computer</option>
+          <option value="EditResource">Edit Resource</option>
+          <option value="ChangeStatus">Change Computer Status</option>
+          <option value="DeleteResource">Delete Resource</option>
+          <option value="AddSoftware">Add Software</option>
+        </select>
+        
+        <div id="boxLabCreate" class=" py-3">
+          <form id="CreateLab">
+            <label for="addLab" class="form-label">Add New Lab</label>
+            <input type="text" class="form-control" name="Name" id="addLab">
+            <button type="submit" id="buttonAddLab" class="btn btn-primary mt-2">Add Lab</button>
+          </form>
+        </div>
+
+        <div class="mb-3">
+          <label for="LabId" class="form-label">Lab Id</label>
+          <input type="text" class="form-control" name="stringId" id="LabId">
+        </div>
+
+        <div id="boxComputerCreate" class=" mb-3">
+          <form id="CreateComputer">
+            <h3>Add New Computer</h3>
+
+            <div class="mb-3">
+              <label for="addComputerName" class="form-label">Add Name</label>
+              <input type="text" class="form-control" name="Name" id="addComputerName">
+            </div>
+
+            <div class="mb-3">
+              <label for="addComputerDescription" class="form-label">Add Description</label>
+              <input type="text" class="form-control" name="Name" id="addComputerDescription">
+            </div>
+
+            <div class="mb-3">
+              <label for="addComputerSpecs" class="form-label">Add Specs</label>
+              <input type="text" class="form-control" name="Name" id="addComputerSpecs">
+            </div>
+
+            <select id="computerStatus" name="Status">
+              <option value="" disabled selected>Pick one</option>
+              <option value="Avaiable">Avaiable</option>
+              <option value="Maintenance">Maintenance</option>
+              <option value="OutOfOrder">Out Of Order</option>
+              <option value="Removed">Removed</option>
+              <option value="Reserved">Reserved</option>
+              <option value="InUsing">In Using</option>
+            </select>
+            <button type="submit" id="buttonAddComputer" class="btn btn-primary mt-2">Add Computer</button>
+          </form>
+        </div>
+
+        <div id="boxResourceCreate">
+          <form id="CreateResource">
+            <h3>Add New Resource</h3>
+
+            <div class="mb-3">
+              <label for="addResourceName" class="form-label">Add Name</label>
+              <input type="text" class="form-control" name="Name" id="addResourceName">
+            </div>
+            <div class="mb-3">
+              <label for="addResourceDescription" class="form-label">Add Description</label>
+              <input type="text" class="form-control" name="Description" id="addResourceDescription">
+            </div>
+            <button type="submit" id="buttonAddResource" class="btn btn-primary mt-2">Add a Lab Resource</button>
+          </form>
+        </div>
+
+        <div id="boxComputerPatch">
+          <form id="PatchComputer">
+            <div class="mb-3">
+              <label for="getComputerName" class="form-label">Choose the computer to change</label>
+              <input type="text" class="form-control" name="Name" id="getComputerName">
+            </div>
+            <div class="mb-3">
+              <label for="patchComputerName" class="form-label">Change Name</label>
+              <input type="text" class="form-control" name="Name" id="patchComputerName">
+            </div>
+            <div class="mb-3">
+              <label for="patchComputerDescription" class="form-label">Change Description</label>
+              <input type="text" class="form-control" name="Description" id="patchComputerDescription">
+            </div>
+            <div class="mb-3">
+              <label for="patchComputerSpecs" class="form-label">Change Specs</label>
+              <input type="text" class="form-control" name="Description" id="patchComputerSpecs">
+            </div>
+            <button type="submit" id="buttonPatchComputer" class="btn btn-primary mt-2">Change a Lab Computer</button>
+          </form>
+        </div>
+
+        <div id="boxMoveComputer">
+          <form id="">
+            <div class="mb-3">
+              <label for="getComputerToMove" class="form-label">Choose the computer to move</label>
+              <input type="text" class="form-control" name="Name" id="getComputerToMove">
+              <label for="moveToLab" class="form-label">Choose the Lab to move the Computer</label>
+              <input type="text" class="form-control" name="Name" id="moveToLab">
+            </div>
+            <button type="submit" id="buttonMoveComputer" class="btn btn-primary mt-2">Change a Lab Computer</button>
+          </form>
+        </div>
+
+        <div id="boxComputerStatus">
+          <form>
+            <div class="mb-3">
+              <label for="getComputerIdStatus" class="form-label">Insert Computer Id to change</label>
+              <input type="text" class="form-control" name="Name" id="getComputerIdStatus">
+              <select id="computerChangeStatus" name="Status">
+                <option value="" disabled selected>Pick one</option>
+                <option value="Avaiable">Avaiable</option>
+                <option value="Maintenance">Maintenance</option>
+                <option value="OutOfOrder">Out Of Order</option>
+                <option value="Removed">Removed</option>
+                <option value="Reserved">Reserved</option>
+                <option value="InUsing">In Using</option>
+              </select>
+            </div>
+            <button type="submit" id="buttonComputerChangeStatus" class="btn btn-primary mt-2">Change a Computer Status</button>
+          </form>
+        </div>
+
+        <div id="boxResourcePatch" class=" mt-2">
+          <form id="PatchResource">
+            <h3>Change Resource</h3>
+
+            <div class="mb-3">
+              <label for="getResourceName" class="form-label">Choose the resource to change</label>
+              <input type="text" class="form-control" name="Name" id="getResourceName">
+            </div>
+            <div class="mb-3">
+              <label for="patchResourceName" class="form-label">Change Name</label>
+              <input type="text" class="form-control" name="Name" id="patchResourceName">
+            </div>
+            <div class="mb-3">
+              <label for="patchResourceDescription" class="form-label">Change Description</label>
+              <input type="text" class="form-control" name="Description" id="patchResourceDescription">
+            </div>
+            <button type="submit" id="buttonPatchResource" class="btn btn-primary mt-2">Change a Lab Resource</button>
+          </form>
+        </div>
+
+        <div id="boxDeleteResource">
+          <form id="PatchResource">
+            <h3>Delete Resource</h3>
+
+            <div class="mb-3">
+              <label for="NameResourceToDelete" class="form-label">Choose the resource to delete</label>
+              <input type="text" class="form-control" name="Name" id="NameResourceToDelete">
+            </div>
+            <button type="submit" id="buttonDeleteResource" class="btn btn-primary mt-2">Delete a Lab Resource</button>
+          </form>
+        </div>
+
+        <div id="BoxAddSoftware">
+          <form id="AddSoftware">
+
+            <label for="computerAddSoftware" class="form-label">Choose computer name to add software</label>
+            <input type="text" class="form-control" name="Name" id="computerAddSoftware">
+            
+            <label for="softwareName" class="form-label">Insert software name</label>
+            <input type="text" class="form-control" name="Name" id="softwareName">
+
+            <button type="submit" id="buttonAddSoftware" class="btn btn-primary mt-2">Add a Computer Software</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

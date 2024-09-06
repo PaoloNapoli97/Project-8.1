@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\LabApi\\LabApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\FileManager\\FileManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\FileManager\\FileManager.csproj",
+        "projectName": "FileManager",
+        "projectPath": "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\FileManager\\FileManager.csproj",
+        "packagesPath": "C:\\Users\\Paolo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\FileManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paolo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\LabApi\\LabApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\LabApi\\LabApi.csproj",
+        "projectName": "LabApi",
+        "projectPath": "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\LabApi\\LabApi.csproj",
+        "packagesPath": "C:\\Users\\Paolo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\LabApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paolo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\FileManager\\FileManager.csproj": {
+                "projectPath": "C:\\Users\\Paolo\\Desktop\\Nuova cartella (4)\\Project 8.1\\Project 8.1 Back-end\\FileManager\\FileManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

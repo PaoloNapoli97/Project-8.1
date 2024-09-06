@@ -1,0 +1,56 @@
+header{
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body{
+    background: rgba(0, 0, 0, 0.05);
+}
+
+#UserSection{
+    display: none;
+}
+
+/* ADMIN SECTION PROPERTIES */
+#AdminSection{
+    display: none;
+}
+
+#LabAdminSection{
+    display: none;
+}
+
+#boxLabCreate{
+    display: none;
+}
+
+#boxComputerCreate{
+    display: none;
+}
+
+#boxResourceCreate{ 
+    display: none;
+}
+
+#boxComputerPatch{
+    display: none;
+}
+
+#boxResourcePatch{
+    display: none;
+}
+
+#boxComputerStatus{ 
+    display: none;
+}
+
+#boxDeleteResource{
+    display: none;
+}
+
+#BoxAddSoftware{
+    display: none;
+}
+
+#boxMoveComputer{
+    display: none;
+}
